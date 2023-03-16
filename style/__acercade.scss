@@ -1,0 +1,12 @@
+@use'__commos' as c;
+
+.zonaAcercaDe {
+
+    justify-content: center;
+    width: 95%;
+    height: 90vh;
+    border: solid 5px red;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+}

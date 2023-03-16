@@ -1,0 +1,24 @@
+@use'__commos' as c;
+
+.seccionPrincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+
+    .elemento {
+        width: 450px;
+        height: 500px;
+        margin: 0.5rem 2rem;
+        border: solid 5px black;
+        text-align: center;
+        font-size: 2rem;
+
+
+        h1 {
+            width: 100%;
+        }
+    }
+}

@@ -13,6 +13,27 @@
 
 }
 
+
+#contenedor {
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas:
+
+
+        "barraDeNavegacion"
+        "home"
+        "seccion1"
+        "seccion2"
+        "seccion3"
+        "seccion4"
+        "seccion5"
+
+
+    ;
+}
+
 $main-color: #d90429;
 $text-color: #020102;
 $bg-color: #ffff;
@@ -25,13 +46,4 @@ html::-webkit-scrollbar {
 html::-webkit-scrollbar-thumb {
     border-radius: 5rem;
     background: $text-color ;
-}
-
-
-section {
-    padding: 4rem 0 2rem;
-}
-
-img {
-    width: 100%;
 }

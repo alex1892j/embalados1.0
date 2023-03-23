@@ -2,8 +2,48 @@
 
 .footer {
     width: 100%;
-    height: 50vh;
-    border: solid 5px red;
+    height: 30rem;
+    background-color: #000;
+    color: #fff;
     text-align: center;
-    font-size: 2rem;
+
+    form {
+
+        .tyc {
+            color: #e80606;
+            text-decoration: underline red;
+        }
+
+    }
+
+    .boton {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 28px;
+        border: 1px solid black;
+        display: block;
+        position: relative;
+        width: 20%;
+        cursor: pointer;
+        font-family: 'Barlow', sans-serif;
+        text-align: center;
+        font-size: 17px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: red;
+            color: #f6f0f0;
+            transform: scale(1) translate(-15%, -20%);
+
+        }
+
+
+    }
+
+    .acercaDeEmbalados a {
+        color: #e80606;
+        text-decoration: underline red;
+    }
+
 }

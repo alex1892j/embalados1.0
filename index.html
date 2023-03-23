@@ -7,135 +7,309 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style/style.css">
+
 </head>
 
-<body>
+<body id="contenedor">
+
+
     <header id="barraDeNavegacion">
 
-        <span id="logo">logo</span>
-
-        <nav id="navardPrincipal">
-            <ul>
-                <li><a href="#">producto1</a></li>
-                <li><a href="#">producto2</a></li>
-                <li><a href="#">producto3</a></li>
-                <li><a href="#">producto4</a></li>
-                <li><a href="#">producto5</a></li>
-
-            </ul>
-        </nav>
-        <div class="iconos">
-            <div class="btnIcon">
-
-                <span class="material-icons">
-                    search
-                </span>
+        <div class="nav containr">
+            <div>
+                <i class='bx bx-menu' id="menuIcon"></i>
             </div>
-            <div class="btnIcon">
-
-                <span class="material-icons">
-                    shopping_cart
-                </span>
+            <div>
+                <a href="#" class="logo">logo</a>
             </div>
+
+            <div>
+
+                <ul class="navar">
+                    <li><a href="#home" class="active">home</a></li>
+                    <li><a href="#seccion1">seccion 1</a></li>
+                    <li><a href="#seccion2">seccion 2</a></li>
+                    <li><a href="#seccion3">seccion 3</a></li>
+                    <li><a href="#seccion4">seccion 4</a></li>
+                    <li><a href="#seccion5">seccion 5</a></li>
+
+                </ul>
+            </div>
+
+            <div>
+
+                <i class='bx bx-search' id="searchIcon"></i>
+            </div>
+
+            <div class="search-box containr">
+
+                <input type="text" name="buscar" id="buscar" placeholder="search here...">
+
+            </div>
+            <div class="carritoIcon">
+
+                <i class='bx bxs-cart'></i>
+            </div>
+
+
 
         </div>
-
     </header>
 
-    <section class="slaider">
+    <ul id="listprod">
+        <li> <a href="#damas"><i class='bx bx-search'></i>damas</a></li>
+        <li> <a href="#caballeros"><i class='bx bx-search'></i>caballeros</a></li>
+        <li> <a href="#niños"><i class='bx bx-search'></i>niños</a></li>
+        <li> <a href="#mascotas"><i class='bx bx-search'></i>mascotas</a></li>
+        <li> <a href="#rolex"><i class='bx bx-search'></i>rolex</a></li>
+        <li> <a href="#carteraGucci"><i class='bx bx-search'></i>cartera gucci</a></li>
+        <li> <a href="#relogCassio"><i class='bx bx-search'></i>relog cassio</a></li>
+        <li> <a href="#zapatoNike"><i class='bx bx-search'></i>zapato nike</a></li>
+        <li> <a href="#silla"><i class='bx bx-search'></i>silla</a></li>
+        <li> <a href="#mesa"><i class='bx bx-search'></i>mesa</a></li>
+        <li> <a href="#parlante"><i class='bx bx-search'></i>parlante</a></li>
+        <li> <a href="#iphon"><i class='bx bx-search'></i>iphon</a></li>
 
-        <img src="#" alt="#">
-        <span>zona de slaider</span>
-        <p>para mostrar la imagen principal de la empresa, incluso aca se puede mostrar el producto estrella a los
-            usuarios</p>
+    </ul>
 
+    <main id="slaider" class="slaider">
+
+        <span>seccion de slaider</span>
+
+
+    </main>
+
+    <section id="seccion1">
+
+        <div class="linkproductos" id="damas">
+            <img src="img/oferta.png" alt="">
+            <h3><a href="#">damas</a></h3>
+        </div>
+        <div class="linkproductos" id="caballeros">
+            <img src="img/oferta.png" alt="">
+            <h3><a href="#">caballeros</a></h3>
+        </div>
+        <div class="linkproductos" id="niños">
+            <img src="img/oferta.png" alt="">
+            <h3><a href="#">niños</a></h3>
+        </div>
+        <div class="linkproductos" id="mascotas">
+            <img src="img/oferta.png" alt="">
+            <h3><a href="#">mascotas</a></h3>
+        </div>
     </section>
 
-    <section class="seccionPrincipal">
 
-        <article class="elemento">
-            <h1 class="ofertas">ofertas</h1>
-        </article>
-
-        <article class="elemento">
-            <h1 class="promociones">promociones</h1>
-        </article>
-
-        <article class="elemento">
-            <h1 class="noticias">noticias</h1>
-        </article>
-    </section>
+    <section id="seccion2">
 
 
-    <section class="zonaDeProductos">
-        <article>
-            <h1>zona de productos</h1>
-            <p>donde se mostraran los productos: con oferta especial, con mayor cantidad en almacen, lo mas solicitados,
-                etc</p>
-        </article>
-    </section>
+        <section class="contenedor">
+            <h1 class="enSuperOterta">en super ofreta</h1>
+            <div class="contenedor-items">
+                <div class="tr">
 
-    <section class="zonaAcercaDe">
-        <article>
-            <h1>acerca de</h1>
-            <p>informacion sobre la empresa</p>
-        </article>
-    </section>
+                    <div class="item" id="rolex">
+                        <span class="titulo-item">rolex</span>
+                        <img src="img/oferta.png" alt="" class="img-item">
+                        <span class="precio-item">$25.000</span>
+                        <button class="boton-item">Agregar al Carrito</button>
+                        <i class='bx bxs-star'>(6 Reviews)</i>
+
+                    </div>
+
+                    <div class="item" id="carteraGucci">
+                        <span class="titulo-item">cartera gucci</span>
+                        <img src="img/oferta.png" alt="" class="img-item">
+                        <span class="precio-item">$25.000</span>
+                        <button class="boton-item">Agregar al Carrito</button>
+                        <i class='bx bxs-star'>(6 Reviews)</i>
+
+                    </div>
+                </div>
+                <div class="tr">
+
+                    <div class="item" id="relogCassio">
+                        <span class="titulo-item">relog cassio</span>
+                        <img src="img/oferta.png" alt="" class="img-item">
+                        <span class="precio-item">$35.000</span>
+                        <button class="boton-item">Agregar al Carrito</button>
+                        <i class='bx bxs-star'>(6 Reviews)</i>
+                    </div>
+                    <div class="item" id="zapatoNike">
+                        <span class="titulo-item">zapato nike</span>
+                        <img src="img/oferta.png" alt="" class="img-item">
+                        <span class="precio-item">$18.000</span>
+                        <button class="boton-item">Agregar al Carrito</button>
+                        <i class='bx bxs-star'>(6 Reviews)</i>
+
+                    </div>
+                </div>
+                <div class="tr">
+
+                    <div class="item" id="silla">
+                        <span class="titulo-item">silla</span>
+                        <img src="img/oferta.png" alt="" class="img-item">
+                        <span class="precio-item">$32.000</span>
+                        <button class="boton-item">Agregar al Carrito</button>
+                        <i class='bx bxs-star'>(6 Reviews)</i>
+
+                    </div>
+                    <div class="item" id="mesa">
+                        <span class="titulo-item">mesa</span>
+                        <img src="img/oferta.png" alt="" class="img-item">
+                        <span class="precio-item">$18.000</span>
+                        <button class="boton-item">Agregar al Carrito</button>
+                        <i class='bx bxs-star'>(6 Reviews)</i>
+
+                    </div>
+                </div>
+                <div class="tr">
+
+                    <div class="item" id="parlante">
+                        <span class="titulo-item">parlante</span>
+                        <img src="img/oferta.png" alt="" class="img-item">
+                        <span class="precio-item">$54.000</span>
+                        <button class="boton-item">Agregar al Carrito</button>
+                        <i class='bx bxs-star'>(6 Reviews)</i>
+
+                    </div>
+                    <div class="item" id="iphon">
+                        <span class="titulo-item">iphon</span>
+                        <img src="img/oferta.png" alt="" class="img-item">
+                        <span class="precio-item">$32.000</span>
+                        <button class="boton-item">Agregar al Carrito</button>
+                        <i class='bx bxs-star'>(6 Reviews)</i>
+
+                    </div>
+                </div>
 
 
 
-    <section class="zonaCategoria">
-        <article>
-            <h1>categorias de productos</h1>
-            <p>para mostrar las difrentes categorias, targetas con enlaces que redireccionen a donde se muestran los
-                productos de dicha categoria, por ejemplo: targeta de: ropa de niños, lleva a donde se encuentra
-                toda la
-                ropa de niños. </p>
+            </div>
+        </section>
 
-        </article>
-    </section>
+        <section id="seccion3">
+            <article class="zonaAcercaDe">
+                <h1>acerca de</h1>
+                <p>informacion sobre la empresa</p>
+            </article>
+        </section>
 
-    <section class="seccioncategoria">
 
-        <article class="elemt">
-            <h1 class="ofertas">zapatos</h1>
-        </article>
+        <div id="seccion4">
 
-        <article class="elemt">
-            <h1 class="promociones">carteras</h1>
-        </article>
+            <section class="zonaCategoria">
+                <article>
+                    <h1>categorias de productos</h1>
+                    <p>para mostrar las difrentes categorias, targetas con enlaces que redireccionen a donde se muestran
+                        los
+                        productos de dicha categoria, por ejemplo: targeta de: ropa de niños, lleva a donde se encuentra
+                        toda la
+                        ropa de niños. </p>
 
-        <article class="elemt">
-            <h1 class="noticias">pantalones</h1>
-        </article>
-        <article class="elemt">
-            <h1 class="noticias">camisas</h1>
-        </article>
-    </section>
-    <section class="seccioncategoria">
+                </article>
+            </section>
 
-        <article class="elemt">
-            <h1 class="ofertas">mujeres</h1>
-        </article>
+            <section class="seccioncategoria">
 
-        <article class="elemt">
-            <h1 class="promociones">niños</h1>
-        </article>
+                <div class="linkproductos">
+                    <img src="img/oferta.png" alt="">
+                    <h3><a href="#">relogues</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vero odio iusto inventore est.
+                        Mollitia!</p>
+                </div>
+                <div class="linkproductos">
+                    <img src="img/oferta.png" alt="">
+                    <h3><a href="#">carteras</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vero odio iusto inventore est.
+                        Mollitia!</p>
+                </div>
+                <div class="linkproductos">
+                    <img src="img/oferta.png" alt="">
+                    <h3><a href="#">cadenas</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vero odio iusto inventore est.
+                        Mollitia!</p>
+                </div>
 
-        <article class="elemt">
-            <h1 class="noticias">hombres</h1>
-        </article>
-        <article class="elemt">
-            <h1 class="noticias">mascotas</h1>
-        </article>
-    </section>
+            </section>
 
-    <footer class="footer">
-        <h1>pie de pagina</h1>
-        <p>aca se muetra el pie de pagina, enlaces de redes, referencias, derechos reservados, etc.</p>
-    </footer>
+            <section class="seccioncategoria">
+                <div class="linkproductos">
+                    <img src="img/oferta.png" alt="">
+                    <h3><a href="#">zapatos</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vero odio iusto inventore est.
+                        Mollitia!</p>
+                </div>
+                <div class="linkproductos">
+                    <img src="img/oferta.png" alt="">
+                    <h3><a href="#">pantalones</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vero odio iusto inventore est.
+                        Mollitia!</p>
+                </div>
+                <div class="linkproductos">
+                    <img src="img/oferta.png" alt="">
+                    <h3><a href="#">camisas</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vero odio iusto inventore est.
+                        Mollitia!</p>
+                </div>
+
+            </section>
+        </div>
+
+        <footer id="seccion5">
+
+            <div class="footer">
+
+                <h1>suscribete y accede a promociones</h1>
+
+
+                <div class="formulario">
+                    <form action="#">
+                        <label for="nombre">nombre</label>
+                        <input type="text" placeholder="nombre">
+                        <br>
+                        <label for="correo">correo</label>
+                        <input type="email" placeholder="correo">
+                        <br>
+
+                        <input type="checkbox"> <label for="total">acepto <a class="tyc" href="#">terminos y
+                                condiciones.</a> </label>
+                        <br>
+                        <button class="boton" type="submit">suscribirme</button>
+                    </form>
+                </div>
+
+                <div class="interaccion">
+
+                    <div class="acercaDeEmbalados">
+                        <span> <a href="">acerca de embalados</a> </span>
+
+                        <span> <a href="">servicio al cliente</a> </span>
+
+
+
+                        <span><a href="#">novedades</a></span>
+                    </div>
+
+                    <div class="redes">
+                        <span>sigenos</span>
+                        <div>
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="#"><i class='bx bxl-tiktok'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p>derechos reservados y copyright</p>
+            </div>
+
+        </footer>
+        <script src="javascript/script.js"></script>
+
 
 </body>
 

@@ -30,9 +30,9 @@ document.querySelector('#menuIcon').onclick = () => {
 
 window.onscroll = () => {
     menu.classList.remove('active')
-    search.classList.remove('active')
 
-    listprod.style.display = "none";
+
+
 
 }
 

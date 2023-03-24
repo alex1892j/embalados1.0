@@ -447,10 +447,6 @@ header.Shadow {
     padding: 12px 20px;
     font-size: 17px;
   }
-  #listprod li a:hover {
-    background: #d90429;
-    color: white;
-  }
   #slaider {
     grid-area: home;
     max-width: 100%;
@@ -650,10 +646,6 @@ header.Shadow {
     color: #020102;
     padding: 12px 20px;
     font-size: 17px;
-  }
-  #listprod li a:hover {
-    background: #d90429;
-    color: white;
   }
   #slaider {
     grid-area: home;

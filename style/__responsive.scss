@@ -88,6 +88,10 @@
             padding: 12px 20px;
             font-size: 17px;
 
+            &:hover {
+                background: c.$main-color;
+                color: c.$bg-color;
+            }
 
         }
 
@@ -399,7 +403,10 @@
             padding: 12px 20px;
             font-size: 17px;
 
-
+            &:hover {
+                background: c.$main-color;
+                color: c.$bg-color;
+            }
         }
 
     }
@@ -679,6 +686,10 @@
             padding: 12px 20px;
             font-size: 17px;
 
+            &:hover {
+                background: c.$main-color;
+                color: c.$bg-color;
+            }
 
         }
 

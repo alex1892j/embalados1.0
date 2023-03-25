@@ -584,6 +584,9 @@ header.Shadow {
   #seccion5 .formulario input {
     margin: 1rem 0;
   }
+  #seccion5 .boton {
+    width: 40%;
+  }
   #seccion5 .acercaDeEmbalados {
     display: flex;
     flex-direction: column;

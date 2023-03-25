@@ -2,7 +2,7 @@
 
 .footer {
     width: 100%;
-    height: 30rem;
+    height: 40rem;
     background-color: #000;
     color: #fff;
     text-align: center;
@@ -45,6 +45,10 @@
     .acercaDeEmbalados a {
         color: #e80606;
         text-decoration: underline red;
+
     }
 
+    p {
+        margin-top: 10px;
+    }
 }

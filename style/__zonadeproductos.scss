@@ -15,7 +15,7 @@
 }
 
 /* SECCION CONTENEDOR DE ITEMS */
-.contenedor .contenedor-items {
+.contenedor .contenedor-ites {
     margin-top: 15px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
@@ -26,50 +26,27 @@
     transition: .3s;
 }
 
-.contenedor .contenedor-items .item {
+.contenedor .contenedor-ites .ite {
     max-width: auto;
     margin: 20px 0.1rem;
-    border: 1px solid #666;
-    border-radius: 10px;
+
     padding: 0.5px;
     transition: .3s;
 }
 
-.contenedor .contenedor-items .item .img-item {
+.contenedor .contenedor-ites .ite .img-ite {
     width: 80%;
 }
 
-.contenedor .contenedor-items .item:hover {
+.contenedor .contenedor-ites .ite:hover {
     box-shadow: 0 0 3px #666;
     scale: 1.05;
 }
 
-.contenedor .contenedor-items .item .titulo-item {
+.contenedor .contenedor-ites .ite .titulo-ite {
     display: block;
     font-weight: bold;
     font-size: 1.2rem;
     text-align: center;
     text-transform: uppercase;
-}
-
-.contenedor .contenedor-items .item .precio-item {
-    display: block;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-.contenedor .contenedor-items .item .boton-item {
-    display: block;
-    margin: 8px auto;
-    border: none;
-    background-color: black;
-    color: #fff;
-    padding: 2px 7px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.bxs-star {
-    font-size: 1.3rem;
 }

@@ -1,23 +1,35 @@
 @use'__commos' as c;
-/*
-.seccionPrincipal {
+
+#seccion1 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    //sgap: 0.5rem;
 
 
-    .elemento {
-        //width: 450px;
-        // height: 500px;
-        //margin: 0.5rem 2rem;
-        border: solid 5px black;
-        text-align: center;
-        font-size: 2rem;
+    .categoriasPrincipales {
+        display: flex;
+        flex-direction: row;
 
+        i {
+            font-size: 3.5rem;
+            margin-right: 1rem;
+            color: c.$bg-color ;
+        }
 
+        span {
+            h3 {
+                font-size: 1.3rem;
+            }
 
+            p {
+                font-size: 1rem;
+            }
+        }
     }
 }
-*/
+
+.categoriasPrincipales:hover {
+    scale: 1.2;
+    box-shadow: 0 0 3px #666;
+    background: #fafdfc;
+    border: solid 1px #fafdfc;
+    border-radius: 10px;
+}

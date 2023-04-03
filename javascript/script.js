@@ -1,7 +1,7 @@
 let search = document.querySelector('.search-box');
 
-document.querySelector('#searchIcon', '#contenedor').onclick = () => {
-    search.classList.toggle('active')
+document.querySelector('#menuIcon', '#contenedor').onclick = () => {
+
     menu.classList.remove('active')
     input.focus();
     input.value = "";
@@ -20,7 +20,7 @@ let menu = document.querySelector('.navar');
 
 document.querySelector('#menuIcon').onclick = () => {
     menu.classList.toggle('active')
-    search.classList.remove('active')
+
 
 };
 
@@ -30,7 +30,7 @@ document.querySelector('#menuIcon').onclick = () => {
 
 window.onscroll = () => {
     menu.classList.remove('active')
-    search.classList.remove('active')
+
 
     listprod.style.display = "none";
 

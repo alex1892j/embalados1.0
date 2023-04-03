@@ -1,25 +1,28 @@
 @use'__commos' as c;
 
 
-.container {
+.containr {
 
-    max-width: 1068px;
+    max-width: 100%;
+    height: 10vh;
     margin-left: auto;
     margin-right: auto;
+
+
 }
 
 header {
     display: block;
     width: 100%;
-    position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
 
+
 }
 
 header.Shadow {
-    background: c.$bg-color;
+    background: #ffff;
     box-shadow: 4px 4px 20px rgb(15 54 55 / 20%);
     transition: 0.5s ease;
 }
@@ -29,8 +32,61 @@ header.Shadow {
     align-items: center;
     justify-content: space-between;
     padding: 20px 35px;
+}
 
 
+.logoembalado {
+
+    width: 30%;
+    margin-bottom: 10px;
+
+
+    .logo {
+        width: 250px;
+    }
+}
+
+.boton {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+
+    input {
+        width: 100%;
+    }
+
+    .iconobuscar {
+        display: flex;
+        justify-content: center;
+        background: c.$main-color;
+        color: #ffff;
+        font-size: 1.5rem;
+        border: solid 1px c.$main-color;
+        padding: 0 7px;
+
+    }
+}
+
+.corazon {
+    width: 10%;
+    font-size: 1.8rem;
+    text-align: center;
+    color: c.$main-color;
+}
+
+.carritoIcon {
+    width: 15%;
+
+    a {
+        color: c.$text-color ;
+        text-decoration: none;
+
+        i {
+            font-size: 1.5rem;
+            margin: 0.4rem;
+            color: c.$main-color;
+        }
+    }
 }
 
 #menuIcon {
@@ -40,80 +96,146 @@ header.Shadow {
     display: none;
 }
 
-.logo {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: c.$text-color;
-
-    span {
-        color: c.$main-color;
-    }
-}
-
-.navar {
+.menunav {
     display: flex;
-    column-gap: 2rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+    margin-top: 50px;
 
-    a {
-        color: c.$text-color;
-        font-size: 1rem;
-        text-transform: uppercase;
-        font-weight: 500;
+    .menuCategorias {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bolder;
 
-        &:hover {
-            color: c.$main-color;
-            border-bottom: 3px solid c.$main-color;
+
+
+
+        span {
+            margin: 0 5px;
+
+            #list {
+                text-align: center;
+                font-size: 1.5rem;
+                margin-left: 2px;
+
+
+            }
+        }
+
+        li {
+
+
+            ul {
+                background: #ffff;
+                position: fixed;
+                width: 30%;
+                height: 75vh;
+                margin-left: 0.5rem;
+                top: 9rem;
+                display: none;
+
+
+                li {
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+
+                    a {
+                        color: c.$text-color;
+                        padding: 0.1rem;
+                        font-size: 0.85rem;
+                        display: list-item;
+                        list-style-type: square;
+
+                        &:hover {
+                            width: 90%;
+                            background: c.$fon-color ;
+
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .menuCategorias:hover {
+
+
+        ul {
+
+            display: block;
+            transform: translate(0px, 0%);
+
+            li {
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin: 0.5rem;
+
+                a {
+                    color: c.$text-color;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+
+
+    .navar {
+        display: flex;
+        column-gap: 2rem;
+
+        a {
+            text-decoration: none;
+            color: c.$text-color;
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 500;
+
+            &:hover {
+                color: c.$main-color;
+                border-bottom: solid 1.7px c.$main-color;
+            }
+        }
+    }
+
+    .navar .active {
+        color: c.$main-color;
+
+    }
+
+    .accesoORegistro {
+        a {
+            color: c.$text-color;
+            text-decoration: none;
+
+            i {
+                color: c.$main-color ;
+            }
         }
     }
 }
 
-.navar .active {
-    color: c.$main-color;
-    border-bottom: 3px solid c.$main-color;
-}
 
-#searchIcon {
-    font-size: 24px;
-    cursor: pointer;
-    color: c.$text-color ;
-    background: none;
-}
-
-.search-box.active {
-    clip-path: circle(144% at 100% 0%);
-    transition: 0.4s;
-}
-
-.search-box {
-    position: absolute;
-    top: 110%;
-    right: 0;
-    left: 0;
-    background: c.$bg-color;
-    box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
-    border: 1px solid c.$main-color;
-    border-radius: 0.5rem;
-    clip-path: circle(0% at 100% 0%);
-
-    input {
-        width: 100%;
-        padding: 20px;
-        border: none;
-        outline: none;
-        background: transparent;
-        font-size: 1rem;
-
-    }
-}
 
 
 #listprod {
     position: fixed;
-    background: c.$bg-color;
+    background: #ffff;
+
     border: 1px solid c.$main-color;
-    margin-top: 9rem;
-    margin-left: 15rem;
-    width: 20%;
+    top: 5px;
+    margin-left: 25rem;
+    width: 10%;
     z-index: 100;
     display: none;
 
@@ -126,8 +248,8 @@ header.Shadow {
         font-size: 20px;
 
         &:hover {
-            background: c.$main-color;
-            color: c.$bg-color;
+
+            color: red;
         }
 
     }

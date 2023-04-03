@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style/style.css">
@@ -15,6 +16,9 @@
 
 <body id="contenedor">
 
+    <a href="https://api.whatsapp.com/send?phone=989790486" target="_blank" class="btn-wapp"><i
+            class='bx bxl-whatsapp'></i>
+    </a>
 
     <header id="barraDeNavegacion">
 
@@ -22,84 +26,218 @@
             <div>
                 <i class='bx bx-menu' id="menuIcon"></i>
             </div>
-            <div>
-                <a href="#" class="logo">logo</a>
+            <div class="logoembalado">
+                <a href="#"><img class="logo" src="img/logoEmbalado.png" alt="logo-embalado"></a>
+
             </div>
 
+            <div class="boton">
+                <input type="text" name="buscar" id="buscar" placeholder="buscar...">
+                <label for="buscar" name="buscar" id="buscar" class="iconobuscar">
+                    <i class='bx bx-search-alt-2'></i>
+                </label>
+
+            </div>
+
+            <div class="corazon">
+                <i class='bx bxs-heart-circle'></i>
+
+            </div>
+
+
+
+            <div class="carritoIcon">
+
+                <a href=""><i class='bx bxs-rocket'></i>mi carrito</a>
+            </div>
+
+
+
+        </div>
+
+
+
+        <ul id="listprod">
+            <li> <a href="#damas"><i class='bx bx-search'></i>damas</a></li>
+            <li> <a href="#caballeros"><i class='bx bx-search'></i>caballeros</a></li>
+            <li> <a href="#niños"><i class='bx bx-search'></i>niños</a></li>
+            <li> <a href="#mascotas"><i class='bx bx-search'></i>mascotas</a></li>
+            <li> <a href="#rolex"><i class='bx bx-search'></i>rolex</a></li>
+            <li> <a href="#carteraGucci"><i class='bx bx-search'></i>cartera gucci</a></li>
+            <li> <a href="#relogCassio"><i class='bx bx-search'></i>relog cassio</a></li>
+            <li> <a href="#zapatoNike"><i class='bx bx-search'></i>zapato nike</a></li>
+            <li> <a href="#silla"><i class='bx bx-search'></i>silla</a></li>
+            <li> <a href="#mesa"><i class='bx bx-search'></i>mesa</a></li>
+            <li> <a href="#parlante"><i class='bx bx-search'></i>parlante</a></li>
+            <li> <a href="#iphon"><i class='bx bx-search'></i>iphon</a></li>
+
+        </ul>
+        <div class="menunav">
             <div>
+                <ul class="menuCategorias">
+                    <div id="list">
+                        <span> <i class='bx bx-list-ul'></i> categorias <i
+                                class='bx bxs-chevron-left bx-rotate-270'></i> </span>
+                    </div>
+                    <li>
 
-                <ul class="navar">
-                    <li><a href="#home" class="active">home</a></li>
-                    <li><a href="#seccion1">seccion 1</a></li>
-                    <li><a href="#seccion2">seccion 2</a></li>
-                    <li><a href="#seccion3">seccion 3</a></li>
-                    <li><a href="#seccion4">seccion 4</a></li>
-                    <li><a href="#seccion5">seccion 5</a></li>
 
+                        <ul id="cat">
+                            <li><a href="#">Componentes informaticos</a></li>
+                            <li><a href="#">Tecnología</a></li>
+                            <li><a href="#">Gamer</a></li>
+                            <li><a href="#">Belleza y cuidado personal</a></li>
+                            <li><a href="#">Salud y bienestar</a></li>
+                            <li><a href="#">Home Office</a></li>
+                            <li><a href="#">Consolas y video juegos</a></li>
+                            <li><a href="#">Deportes y exteriores</a></li>
+                            <li><a href="#">Segurida</a></li>
+                            <li><a href="#">Bioseguridad</a></li>
+                            <li><a href="#">Tv - audio</a></li>
+                            <li><a href="#">Transporte</a></li>
+                            <li><a href="#">Marcas</a></li>
+
+
+                        </ul>
+                    </li>
                 </ul>
             </div>
 
             <div>
+                <ul class="navar">
+                    <li><a href="#home" class="active">home</a></li>
 
-                <i class='bx bx-search' id="searchIcon"></i>
+
+                    <li class="componentes-informaticos"><a href="#">componentes informaticos</a>
+
+                        <ul class="cominf">
+                            <li><a href="#">Mainboard</a></li>
+                            <li><a href="#">Procesadores</a></li>
+                            <li><a href="#">Memorias Ram </a></li>
+                            <li><a href="#">Almacenamiento</a></li>
+                            <li><a href="#">Tarjeta gráfica</a></li>
+                            <li><a href="#">Fuentes de poder</a></li>
+                            <li><a href="#">Cases</a></li>
+                            <li><a href="#">Cooler</a></li>
+                            <li><a href="#">Refigeración líquida</a></li>
+                            <li><a href="#">Pasta termica</a></li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <li><a href="#">gamer</a></li>
+
+
+                    <li><a href="#">home Office</a></li>
+
+
+                    <li><a href="#">tv - audio</a></li>
+
+
+                    <li><a href="#">tecnologia</a></li>
+
+                </ul>
             </div>
 
-            <div class="search-box containr">
-
-                <input type="text" name="buscar" id="buscar" placeholder="search here...">
-
+            <div class="accesoORegistro">
+                <a href="#"> <i class='bx bxs-lock-open-alt'></i> acceso o registro</a>
             </div>
-            <div class="carritoIcon">
-
-                <i class='bx bxs-cart'></i>
-            </div>
-
-
-
         </div>
     </header>
 
-    <ul id="listprod">
-        <li> <a href="#damas"><i class='bx bx-search'></i>damas</a></li>
-        <li> <a href="#caballeros"><i class='bx bx-search'></i>caballeros</a></li>
-        <li> <a href="#niños"><i class='bx bx-search'></i>niños</a></li>
-        <li> <a href="#mascotas"><i class='bx bx-search'></i>mascotas</a></li>
-        <li> <a href="#rolex"><i class='bx bx-search'></i>rolex</a></li>
-        <li> <a href="#carteraGucci"><i class='bx bx-search'></i>cartera gucci</a></li>
-        <li> <a href="#relogCassio"><i class='bx bx-search'></i>relog cassio</a></li>
-        <li> <a href="#zapatoNike"><i class='bx bx-search'></i>zapato nike</a></li>
-        <li> <a href="#silla"><i class='bx bx-search'></i>silla</a></li>
-        <li> <a href="#mesa"><i class='bx bx-search'></i>mesa</a></li>
-        <li> <a href="#parlante"><i class='bx bx-search'></i>parlante</a></li>
-        <li> <a href="#iphon"><i class='bx bx-search'></i>iphon</a></li>
-
-    </ul>
-
-    <main id="slaider" class="slaider">
-
-        <span>seccion de slaider</span>
 
 
-    </main>
+    <div id="carouselExampleCaptions" class="carousel slide portada">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner imgportada">
+            <div class="carousel-item active">
+                <img src="img/portada-embalado.jpg" class="d-block w-100 port" alt="embalado">
+                <div class="carousel-caption d-none d-md-block">
+                    <p><span>ENVIOS A NIVEL NACIONAL</span> <br>
+                        <span class="p">compra tus productos favoritos desde la comodida <br> de tu casa. ¿lo quieres?
+                            ¡lo
+                            tienes!</span>
+                        <br>
+                        <button>
+                            <a href="#">comprar ahora</a>
+                        </button>
+                    </p>
+
+                </div>
+            </div>
+            <div class="carousel-item imgportada">
+                <img src="img/BANNER2embalado.jpg" class="d-block w-100" alt="embalado">
+                <div class="carousel-caption d-none d-md-block">
+                    <p><span>ENVIOS A NIVEL NACIONAL</span> <br>
+                        <span class="p">compra tus productos favoritos desde la comodida <br> de tu casa. ¿lo quieres?
+                            ¡lo
+                            tienes!</span>
+                        <br>
+                        <button>
+                            <a href="#">comprar ahora</a>
+                        </button>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item imgportada">
+                <img src="img/BANNER3EMBALADO.jpg" class="d-block w-100" alt="embalado">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
     <section id="seccion1">
 
-        <div class="linkproductos" id="damas">
-            <img src="img/oferta.png" alt="">
-            <h3><a href="#">damas</a></h3>
+        <div class="categoriasPrincipales" id="damas">
+            <i class='bx bxs-truck'></i>
+            <span>
+                <h3><a href="#">ENVIO GRATIS</a></h3>
+                <P>En miles de productos</P>
+            </span>
         </div>
-        <div class="linkproductos" id="caballeros">
-            <img src="img/oferta.png" alt="">
-            <h3><a href="#">caballeros</a></h3>
+        <div class="categoriasPrincipales" id="damas">
+            <i class='bx bx-support'></i>
+            <span>
+                <h3><a href="#">SOPORTE 24/7</a></h3>
+                <P>Online 12 horas</P>
+            </span>
         </div>
-        <div class="linkproductos" id="niños">
-            <img src="img/oferta.png" alt="">
-            <h3><a href="#">niños</a></h3>
+        <div class="categoriasPrincipales" id="damas">
+            <i class='bx bx-credit-card'></i>
+            <span>
+                <h3><a href="#">METODOS DE PAGO</a></h3>
+                <P>100% seguros</P>
+            </span>
         </div>
-        <div class="linkproductos" id="mascotas">
-            <img src="img/oferta.png" alt="">
-            <h3><a href="#">mascotas</a></h3>
+        <div class="categoriasPrincipales" id="damas">
+            <i class='bx bxs-coin-stack'></i>
+            <span>
+                <h3><a href="#">GRANDES OFERTAS</a></h3>
+                <P>Los fines de semana</P>
+            </span>
         </div>
+
     </section>
 
 
@@ -108,100 +246,69 @@
 
         <section class="contenedor">
             <h1 class="enSuperOterta">en super ofreta</h1>
-            <div class="contenedor-items">
+            <div class="contenedor-ites">
                 <div class="tr">
 
-                    <br id="rolex">
 
-                    <div class="item">
-                        <span class="titulo-item">rolex</span>
-                        <img src="img/oferta.png" alt="" class="img-item">
-                        <span class="precio-item">$25.000</span>
-                        <button class="boton-item">Agregar al Carrito</button>
-                        <i class='bx bxs-star'>(6 Reviews)</i>
 
+                    <div class="ite" id="rolex">
+                        <img src="img/oferta.png" alt="" class="img-ite">
+                        <span class="titulo-ite">rolex</span>
                     </div>
 
-                    <br id="carteraGucci">
+                    <div class="ite" id="rolex">
+                        <img src="img/oferta.png" alt="" class="img-ite">
+                        <span class="titulo-ite">rolex</span>
+                    </div>
 
-                    <div class="item">
-                        <span class="titulo-item">cartera gucci</span>
-                        <img src="img/oferta.png" alt="" class="img-item">
-                        <span class="precio-item">$25.000</span>
-                        <button class="boton-item">Agregar al Carrito</button>
-                        <i class='bx bxs-star'>(6 Reviews)</i>
 
+                </div>
+                <div class="tr">
+
+
+
+                    <div class="ite" id="rolex">
+                        <img src="img/oferta.png" alt="" class="img-ite">
+                        <span class="titulo-ite">rolex</span>
+                    </div>
+
+
+
+                    <div class="ite" id="rolex">
+                        <img src="img/oferta.png" alt="" class="img-ite">
+                        <span class="titulo-ite">rolex</span>
                     </div>
                 </div>
                 <div class="tr">
 
-                    <br id="relogCassio">
 
-                    <div class="item">
-                        <span class="titulo-item">reloj cassio</span>
-                        <img src="img/oferta.png" alt="" class="img-item">
-                        <span class="precio-item">$35.000</span>
-                        <button class="boton-item">Agregar al Carrito</button>
-                        <i class='bx bxs-star'>(6 Reviews)</i>
+
+                    <div class="ite" id="rolex">
+                        <img src="img/oferta.png" alt="" class="img-ite">
+                        <span class="titulo-ite">rolex</span>
                     </div>
 
-                    <br id="zapatoNike">
 
-                    <div class="item">
-                        <span class="titulo-item">zapato nike</span>
-                        <img src="img/oferta.png" alt="" class="img-item">
-                        <span class="precio-item">$18.000</span>
-                        <button class="boton-item">Agregar al Carrito</button>
-                        <i class='bx bxs-star'>(6 Reviews)</i>
 
+                    <div class="ite" id="rolex">
+                        <img src="img/oferta.png" alt="" class="img-ite">
+                        <span class="titulo-ite">rolex</span>
                     </div>
                 </div>
                 <div class="tr">
 
-                    <br id="silla">
 
-                    <div class="item">
-                        <span class="titulo-item">silla</span>
-                        <img src="img/oferta.png" alt="" class="img-item">
-                        <span class="precio-item">$32.000</span>
-                        <button class="boton-item">Agregar al Carrito</button>
-                        <i class='bx bxs-star'>(6 Reviews)</i>
 
+                    <div class="ite" id="rolex">
+                        <img src="img/oferta.png" alt="" class="img-ite">
+                        <span class="titulo-ite">rolex</span>
                     </div>
 
-                    <br id="mesa">
 
-                    <div class="item">
-                        <span class="titulo-item">mesa</span>
-                        <img src="img/oferta.png" alt="" class="img-item">
-                        <span class="precio-item">$18.000</span>
-                        <button class="boton-item">Agregar al Carrito</button>
-                        <i class='bx bxs-star'>(6 Reviews)</i>
 
-                    </div>
-                </div>
-                <div class="tr">
-
-                    <br id="parlante">
-
-                    <div class="item" id="parlante">
-                        <span class="titulo-item">parlante</span>
-                        <img src="img/oferta.png" alt="" class="img-item">
-                        <span class="precio-item">$54.000</span>
-                        <button class="boton-item">Agregar al Carrito</button>
-                        <i class='bx bxs-star'>(6 Reviews)</i>
-
-                    </div>
-
-                    <br id="iphon">
-
-                    <div class="item">
-                        <span class="titulo-item">iphon</span>
-                        <img src="img/oferta.png" alt="" class="img-item">
-                        <span class="precio-item">$32.000</span>
-                        <button class="boton-item">Agregar al Carrito</button>
-                        <i class='bx bxs-star'>(6 Reviews)</i>
-
+                    <div class="ite" id="rolex">
+                        <img src="img/oferta.png" alt="" class="img-ite">
+                        <span class="titulo-ite">rolex</span>
                     </div>
                 </div>
 
@@ -327,7 +434,10 @@
         </footer>
         <script src="javascript/script.js"></script>
 
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
 </body>
+
 
 </html>

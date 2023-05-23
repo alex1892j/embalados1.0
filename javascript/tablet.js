@@ -11,7 +11,7 @@ const productosStokc = [
         precio2: 699,
 
 
-        img: "img/tab/TC-TB-0001/TC-TB-0001-1.jpeg",
+        img: "imgt/taba/TC-TB-0001/TC-TB-0001-1.jpeg",
 
 
         des: "La tablet Lenovo Tab M10 HD de 2da generación cuenta con una cubierta de metal completa, fina y de lujo para el cuerpo, y su relación de pantalla es del 85%.Es una tablet elegante, pero duradera que todo el mundo querrá usar.",
@@ -31,7 +31,7 @@ const productosStokc = [
 
         precio2: 3099,
 
-        img: "img/tab/TC-TB-0002.jpeg",
+        img: "imgt/taba/TC-TB-0002.jpeg",
 
         des: "Sumergete en la historia. Ponla de pie, cuelga e inclina tu tablet con un soporte de acero inoxidable, mientras sientes el drama y la tensión de tus películas y programas favoritos con una impresionante calidad de imagen 2K a través de Dolby Vision ™.Disfrutarás de la paleta de colores sRGB completa durante muchas horas con protección ocular con certificación TÜV que elimina los niveles dañinos de luz azul.",
 
@@ -51,7 +51,7 @@ const productosStokc = [
 
         precio2: 399,
 
-        img: "img/tab/TC-TB-0003.jpg",
+        img: "imgt/taba/TC-TB-0003.jpg",
 
         des: "Diseño para niños, ligero fácil de sujetar, conectividad 3G, mantente conectado en cualquier lugar.",
 
@@ -71,7 +71,7 @@ const productosStokc = [
 
         precio2: 199,
 
-        img: "img/tab/TC -TB-0004.jpg",
+        img: "imgt/taba/TC -TB-0004.jpg",
 
         des: "Diseño para niños, ligero fácil de sujetar, conectividad 3G, mantente conectado en cualquier lugar.",
 
@@ -91,7 +91,7 @@ const productosStokc = [
 
         precio2: 199,
 
-        img: "img/tab/TC-TB-0005.jpeg",
+        img: "imgt/taba/TC-TB-0005.jpeg",
 
         des: "Diseño para niños, ligero fácil de sujetar, conectividad 3G, mantente conectado en cualquier lugar.",
 
@@ -111,7 +111,7 @@ const productosStokc = [
 
         precio2: 199,
 
-        img: "img/tab/TC-TB-0006.jpeg",
+        img: "imgt/taba/TC-TB-0006.jpeg",
 
         des: "Diseño para niños, ligero fácil de sujetar, conectividad 3G, mantente conectado en cualquier lugar.",
 
@@ -131,7 +131,7 @@ const productosStokc = [
 
         precio2: 199,
 
-        img: "img/tab/TC-TB-0007.jpeg",
+        img: "imgt/taba/TC-TB-0007.jpeg",
 
         des: "Diseño para niños, ligero fácil de sujetar, conectividad 3G, mantente conectado en cualquier lugar.",
 
@@ -150,7 +150,7 @@ const productosStokc = [
 
         precio2: 2099,
 
-        img: "img/tab/TC-TB-0008/TC-TB-0008.jpeg",
+        img: "imgt/taba/TC-TB-0008/TC-TB-0008.jpeg",
 
         des: "La Galaxy Tab S6 Lite es la compañía portátil perfecta para tomar notas. Cuenta con una pantalla grande de 10.4 pulgadas, un diseño delgado y liviano, One UI 3.1 en Android y un S Pen incluido y listo para utilizar. Ya sea que dibujes, escribas o juegues, esta es la tableta ideal para todo momento.",
 
@@ -170,7 +170,7 @@ const productosStokc = [
 
         precio2: 2269,
 
-        img: "img/tab/TC-TB-0009/TC-TB-0009-2.jpeg",
+        img: "imgt/taba/TC-TB-0009/TC-TB-0009-2.jpeg",
 
         des: "Galaxy Tab Active3 es dura y resistente, tanto por dentro como por fuera, para afrontar el día a día. Con un diseño rugerizado resistente al agua, polvo y a caídas de más 1,5 metros. Además, cuenta con batería reemplazable, NFC mejorado y Samsung Dex, lo que le ayudara a aumentar su productividad. Incluye ajustes de sensibilidad táctil, Active Key y S Pen para ponerse rápidamente manos a la obra.",
 
@@ -190,7 +190,7 @@ const productosStokc = [
 
         precio2: 2199,
 
-        img: "img/tab/TC-TB-0010.jpg",
+        img: "imgt/taba/TC-TB-0010.jpg",
 
         des: "Disfruta de la elegancia de la Galaxy Tab S7 FE en tus manos. Esta tableta simple de una sola pieza se ve aún más refinada gracias a su acabado con poco borde de la cámara en la parte posterior, mientras que su diseño delgado permite un agarre cómodo. Puedes elegir entre cuatro colores icónicos: negro místico, plateado místico, verde místico y rosa místico.",
 
@@ -210,7 +210,7 @@ const productosStokc = [
 
         precio2: 919,
 
-        img: "img/tab/TC-TB-0011.jpeg",
+        img: "imgt/taba/TC-TB-0011.jpeg",
 
         des: "La Galaxy Tab A8 posee un aspecto divertido y renovado con un aura vibrante y jovial. El elegante cuerpo metálico presenta un perfil ultrafino de solo 6.9 mm. Además, cuenta con el diseño insignia de la tableta Samsung en Gris, Plateado y Oro rosado que destaca su encanto natural.",
 

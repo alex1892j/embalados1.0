@@ -1,0 +1,186 @@
+@use'__commos' as c;
+
+
+
+.carritoIcon {
+    width: 15%;
+    text-align: center;
+    padding-top: 0.6rem;
+
+
+    span {
+        padding-top: rem;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+    }
+
+    i {
+        font-size: 1.4rem;
+        color: c.$main-color;
+        margin-left: 1rem;
+        padding-top: 0.4rem;
+    }
+
+    &:hover {
+        cursor: pointer;
+
+        .productoAgregadoAlCarrito {
+            display: block;
+            animation: desoliegue 0.3s;
+        }
+    }
+
+    .carritoTotal {
+        .botones {
+            .btnPagar {
+                background: c.$main-color;
+                color: #fff;
+                font-size: 1rem;
+                border-radius: 6px;
+                padding: 0.2rem 0.4rem;
+
+                &:hover {
+                    background: c.$text-color;
+                    color: #fff;
+                    scale: 1.2;
+                }
+            }
+
+
+        }
+    }
+}
+
+.productoAgregadoAlCarrito {
+    display: none;
+    width: auto;
+    margin-left: -18%;
+    background: #fff;
+    position: fixed;
+    box-shadow: 0 0 15px c.$main-color;
+    border-radius: 6px;
+    padding: 1rem;
+
+    .dtcarrito {
+        margin-top: 0.5rem;
+        text-align: center;
+        border-bottom: solid 1px c.$main-color;
+
+        .detalles1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            text-align: justify;
+
+            p {
+                margin: 0.5rem 1.5rem;
+                font-size: 1rem;
+            }
+
+            h1 {
+                width: 60%;
+                margin: 0.5rem 1.5rem;
+                font-size: 0.8rem;
+            }
+
+            .btnEliminar {
+                i {
+                    color: c.$main-color;
+
+                    &:hover {
+                        color: c.$bg-color;
+                        scale: 1.2;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .carritoTotal {
+
+        width: 100%;
+
+        .fila {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+            gap: 0.3rem;
+
+        }
+    }
+
+
+}
+
+.parrafo {
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+
+
+    .forclass {
+        width: 45%;
+
+        .dtform {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            margin: 1rem;
+
+            .sub-dt-form {
+                display: flex;
+                flex-direction: column;
+
+            }
+        }
+    }
+
+
+
+    #tabla {
+        width: 50%;
+
+        #tablaDeCarrito {
+            width: 90%;
+            margin-left: 4rem;
+
+            .fila {
+                border-bottom: solid 1px black;
+
+                th {
+                    font-size: 1rem;
+
+                }
+            }
+        }
+
+        tbody {
+
+
+
+            img {
+                width: 60px;
+            }
+
+        }
+    }
+
+}
+
+#boton {
+    display: none;
+    width: 10%;
+    margin-top: 0
+}

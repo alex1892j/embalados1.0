@@ -1,16 +1,1 @@
 @use'__commos' as c;
-
-.componentes-informaticos {
-    .cominf {
-        display: none;
-        position: fixed;
-        background: #fff;
-        margin-top: 0rem;
-    }
-}
-
-.componentes-informaticos:hover {
-    .cominf {
-        display: block;
-    }
-}

@@ -2,11 +2,19 @@
 
 #seccion1 {
     display: flex;
-
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10rem;
+    gap: 2rem;
 
     .categoriasPrincipales {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        padding: 0.5rem;
+        cursor: pointer;
+        text-decoration: none;
 
         i {
             font-size: 3.5rem;
@@ -17,10 +25,58 @@
         span {
             h3 {
                 font-size: 1.3rem;
+                color: c.$main-color;
             }
 
             p {
                 font-size: 1rem;
+            }
+        }
+    }
+
+
+    #videoEmbalado {
+        position: fixed;
+        z-index: 120;
+        margin-top: -50rem;
+        background: #666;
+        border-radius: 6px;
+        display: none;
+        cursor: pointer;
+
+        #volver {
+            margin-left: 95%;
+            font-size: 1.7rem;
+
+            i {
+                color: c.$text-color;
+            }
+        }
+
+        .vdEm {
+            padding: 1rem;
+            margin-top: -1.5rem;
+        }
+    }
+
+
+    #terminosCondiciones {
+        position: fixed;
+        margin-top: -52rem;
+        background: #fafdfc;
+        width: 40%;
+        padding: 1rem;
+        text-align: justify;
+        box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+        z-index: 120;
+        display: none;
+
+        #volver {
+            margin-left: 90%;
+            font-size: 1.7rem;
+
+            i {
+                color: c.$main-color;
             }
         }
     }

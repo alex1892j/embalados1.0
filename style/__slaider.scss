@@ -1,57 +1,11 @@
 @use'__commos' as c;
-/*
+
+
 .portada {
-    width: 100%;
-    top: 10px;
+    top: 6rem;
+    height: 85vh;
 
     .imgportada {
-        height: 100vh;
+        height: 85vh;
     }
-
-
-
-    p {
-        padding: 200px 0;
-        margin-left: 600px;
-        width: 55%;
-
-
-
-        span {
-
-            font-size: 2.4rem;
-            color: c.$text-color ;
-
-        }
-
-        .p {
-
-            width: 50px;
-            font-size: 1rem;
-            color: #ffff;
-
-        }
-
-        button {
-            margin-top: 40px;
-            background: c.$conten-color;
-
-            a {
-                text-decoration: none;
-                color: c.$text-color;
-                padding: 1rem;
-
-                &:hover {
-                    padding: 0.3rem 1rem;
-                    background: c.$bg-color;
-                    color: #ffff;
-
-                }
-            }
-        }
-    }
-
-
-
 }
-*/

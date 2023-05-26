@@ -151,7 +151,7 @@ const producGamer = [
 
         precio2: 1070,
 
-        img: "imgt/gamer/monitores/gm-md-0008/GM-MO -0008.png",
+        img: "imgt/gamer/monitores/gm-md-0008/GM-MO-0008.png",
 
         des: "Los monitores MSI Gaming utilizan un panel de pantalla curvado que tiene un índice de curvatura de 1500R, que es el más cómodo y adecuado para una amplia gama de aplicaciones, desde la informática general hasta los juegos. Los paneles curvos también ayudan a la inmersión en el juego, haciendo que te sientas más conectado a toda la experiencia.",
 

@@ -486,18 +486,27 @@ header.Shadow {
   border-radius: 10px;
 }
 
+.seccion-audifonos,
+.seccion-gamer,
 #todoslosproductos {
-  display: grid;
-  grid-template-areas: todoslosproductos;
   position: relative;
 }
+.seccion-audifonos .tituloPrincipalProducto,
+.seccion-gamer .tituloPrincipalProducto,
 #todoslosproductos .tituloPrincipalProducto {
   font-size: 2rem;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
-#todoslosproductos #seccionGamer,
+.seccion-audifonos .productos-audifonos,
+.seccion-audifonos .productos-gamer,
+.seccion-audifonos #seccionTablets,
+.seccion-gamer .productos-audifonos,
+.seccion-gamer .productos-gamer,
+.seccion-gamer #seccionTablets,
+#todoslosproductos .productos-audifonos,
+#todoslosproductos .productos-gamer,
 #todoslosproductos #seccionTablets {
   display: flex;
   flex-direction: column;
@@ -508,8 +517,31 @@ header.Shadow {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
-#todoslosproductos #seccionGamer .contenedorTarget,
-#todoslosproductos #seccionGamer .contenedorTarge,
+.seccion-audifonos .productos-audifonos .contanedoraudifonos,
+.seccion-audifonos .productos-audifonos .contenedorTarget,
+.seccion-audifonos .productos-audifonos .contenedorTarge,
+.seccion-audifonos .productos-gamer .contanedoraudifonos,
+.seccion-audifonos .productos-gamer .contenedorTarget,
+.seccion-audifonos .productos-gamer .contenedorTarge,
+.seccion-audifonos #seccionTablets .contanedoraudifonos,
+.seccion-audifonos #seccionTablets .contenedorTarget,
+.seccion-audifonos #seccionTablets .contenedorTarge,
+.seccion-gamer .productos-audifonos .contanedoraudifonos,
+.seccion-gamer .productos-audifonos .contenedorTarget,
+.seccion-gamer .productos-audifonos .contenedorTarge,
+.seccion-gamer .productos-gamer .contanedoraudifonos,
+.seccion-gamer .productos-gamer .contenedorTarget,
+.seccion-gamer .productos-gamer .contenedorTarge,
+.seccion-gamer #seccionTablets .contanedoraudifonos,
+.seccion-gamer #seccionTablets .contenedorTarget,
+.seccion-gamer #seccionTablets .contenedorTarge,
+#todoslosproductos .productos-audifonos .contanedoraudifonos,
+#todoslosproductos .productos-audifonos .contenedorTarget,
+#todoslosproductos .productos-audifonos .contenedorTarge,
+#todoslosproductos .productos-gamer .contanedoraudifonos,
+#todoslosproductos .productos-gamer .contenedorTarget,
+#todoslosproductos .productos-gamer .contenedorTarge,
+#todoslosproductos #seccionTablets .contanedoraudifonos,
 #todoslosproductos #seccionTablets .contenedorTarget,
 #todoslosproductos #seccionTablets .contenedorTarge {
   display: flex;
@@ -525,33 +557,127 @@ header.Shadow {
   text-align: center;
   margin: 2rem;
 }
-#todoslosproductos #seccionGamer .contenedorTarget a,
-#todoslosproductos #seccionGamer .contenedorTarge a,
+.seccion-audifonos .productos-audifonos .contanedoraudifonos a,
+.seccion-audifonos .productos-audifonos .contenedorTarget a,
+.seccion-audifonos .productos-audifonos .contenedorTarge a,
+.seccion-audifonos .productos-gamer .contanedoraudifonos a,
+.seccion-audifonos .productos-gamer .contenedorTarget a,
+.seccion-audifonos .productos-gamer .contenedorTarge a,
+.seccion-audifonos #seccionTablets .contanedoraudifonos a,
+.seccion-audifonos #seccionTablets .contenedorTarget a,
+.seccion-audifonos #seccionTablets .contenedorTarge a,
+.seccion-gamer .productos-audifonos .contanedoraudifonos a,
+.seccion-gamer .productos-audifonos .contenedorTarget a,
+.seccion-gamer .productos-audifonos .contenedorTarge a,
+.seccion-gamer .productos-gamer .contanedoraudifonos a,
+.seccion-gamer .productos-gamer .contenedorTarget a,
+.seccion-gamer .productos-gamer .contenedorTarge a,
+.seccion-gamer #seccionTablets .contanedoraudifonos a,
+.seccion-gamer #seccionTablets .contenedorTarget a,
+.seccion-gamer #seccionTablets .contenedorTarge a,
+#todoslosproductos .productos-audifonos .contanedoraudifonos a,
+#todoslosproductos .productos-audifonos .contenedorTarget a,
+#todoslosproductos .productos-audifonos .contenedorTarge a,
+#todoslosproductos .productos-gamer .contanedoraudifonos a,
+#todoslosproductos .productos-gamer .contenedorTarget a,
+#todoslosproductos .productos-gamer .contenedorTarge a,
+#todoslosproductos #seccionTablets .contanedoraudifonos a,
 #todoslosproductos #seccionTablets .contenedorTarget a,
 #todoslosproductos #seccionTablets .contenedorTarge a {
   text-decoration: none;
   color: black;
 }
-#todoslosproductos #seccionGamer .contenedorTarget a .imgTarget,
-#todoslosproductos #seccionGamer .contenedorTarge a .imgTarget,
+.seccion-audifonos .productos-audifonos .contanedoraudifonos a .imgTarget,
+.seccion-audifonos .productos-audifonos .contenedorTarget a .imgTarget,
+.seccion-audifonos .productos-audifonos .contenedorTarge a .imgTarget,
+.seccion-audifonos .productos-gamer .contanedoraudifonos a .imgTarget,
+.seccion-audifonos .productos-gamer .contenedorTarget a .imgTarget,
+.seccion-audifonos .productos-gamer .contenedorTarge a .imgTarget,
+.seccion-audifonos #seccionTablets .contanedoraudifonos a .imgTarget,
+.seccion-audifonos #seccionTablets .contenedorTarget a .imgTarget,
+.seccion-audifonos #seccionTablets .contenedorTarge a .imgTarget,
+.seccion-gamer .productos-audifonos .contanedoraudifonos a .imgTarget,
+.seccion-gamer .productos-audifonos .contenedorTarget a .imgTarget,
+.seccion-gamer .productos-audifonos .contenedorTarge a .imgTarget,
+.seccion-gamer .productos-gamer .contanedoraudifonos a .imgTarget,
+.seccion-gamer .productos-gamer .contenedorTarget a .imgTarget,
+.seccion-gamer .productos-gamer .contenedorTarge a .imgTarget,
+.seccion-gamer #seccionTablets .contanedoraudifonos a .imgTarget,
+.seccion-gamer #seccionTablets .contenedorTarget a .imgTarget,
+.seccion-gamer #seccionTablets .contenedorTarge a .imgTarget,
+#todoslosproductos .productos-audifonos .contanedoraudifonos a .imgTarget,
+#todoslosproductos .productos-audifonos .contenedorTarget a .imgTarget,
+#todoslosproductos .productos-audifonos .contenedorTarge a .imgTarget,
+#todoslosproductos .productos-gamer .contanedoraudifonos a .imgTarget,
+#todoslosproductos .productos-gamer .contenedorTarget a .imgTarget,
+#todoslosproductos .productos-gamer .contenedorTarge a .imgTarget,
+#todoslosproductos #seccionTablets .contanedoraudifonos a .imgTarget,
 #todoslosproductos #seccionTablets .contenedorTarget a .imgTarget,
 #todoslosproductos #seccionTablets .contenedorTarge a .imgTarget {
   width: 150px;
 }
-#todoslosproductos #seccionGamer .contenedorTarget a .tituloTarget,
-#todoslosproductos #seccionGamer .contenedorTarge a .tituloTarget,
+.seccion-audifonos .productos-audifonos .contanedoraudifonos a .tituloTarget,
+.seccion-audifonos .productos-audifonos .contenedorTarget a .tituloTarget,
+.seccion-audifonos .productos-audifonos .contenedorTarge a .tituloTarget,
+.seccion-audifonos .productos-gamer .contanedoraudifonos a .tituloTarget,
+.seccion-audifonos .productos-gamer .contenedorTarget a .tituloTarget,
+.seccion-audifonos .productos-gamer .contenedorTarge a .tituloTarget,
+.seccion-audifonos #seccionTablets .contanedoraudifonos a .tituloTarget,
+.seccion-audifonos #seccionTablets .contenedorTarget a .tituloTarget,
+.seccion-audifonos #seccionTablets .contenedorTarge a .tituloTarget,
+.seccion-gamer .productos-audifonos .contanedoraudifonos a .tituloTarget,
+.seccion-gamer .productos-audifonos .contenedorTarget a .tituloTarget,
+.seccion-gamer .productos-audifonos .contenedorTarge a .tituloTarget,
+.seccion-gamer .productos-gamer .contanedoraudifonos a .tituloTarget,
+.seccion-gamer .productos-gamer .contenedorTarget a .tituloTarget,
+.seccion-gamer .productos-gamer .contenedorTarge a .tituloTarget,
+.seccion-gamer #seccionTablets .contanedoraudifonos a .tituloTarget,
+.seccion-gamer #seccionTablets .contenedorTarget a .tituloTarget,
+.seccion-gamer #seccionTablets .contenedorTarge a .tituloTarget,
+#todoslosproductos .productos-audifonos .contanedoraudifonos a .tituloTarget,
+#todoslosproductos .productos-audifonos .contenedorTarget a .tituloTarget,
+#todoslosproductos .productos-audifonos .contenedorTarge a .tituloTarget,
+#todoslosproductos .productos-gamer .contanedoraudifonos a .tituloTarget,
+#todoslosproductos .productos-gamer .contenedorTarget a .tituloTarget,
+#todoslosproductos .productos-gamer .contenedorTarge a .tituloTarget,
+#todoslosproductos #seccionTablets .contanedoraudifonos a .tituloTarget,
 #todoslosproductos #seccionTablets .contenedorTarget a .tituloTarget,
 #todoslosproductos #seccionTablets .contenedorTarge a .tituloTarget {
   margin-top: 20px;
   font-size: 1rem;
 }
-#todoslosproductos #seccionGamer .contenedorTarget:Hover,
-#todoslosproductos #seccionGamer .contenedorTarge:Hover,
+.seccion-audifonos .productos-audifonos .contanedoraudifonos:Hover,
+.seccion-audifonos .productos-audifonos .contenedorTarget:Hover,
+.seccion-audifonos .productos-audifonos .contenedorTarge:Hover,
+.seccion-audifonos .productos-gamer .contanedoraudifonos:Hover,
+.seccion-audifonos .productos-gamer .contenedorTarget:Hover,
+.seccion-audifonos .productos-gamer .contenedorTarge:Hover,
+.seccion-audifonos #seccionTablets .contanedoraudifonos:Hover,
+.seccion-audifonos #seccionTablets .contenedorTarget:Hover,
+.seccion-audifonos #seccionTablets .contenedorTarge:Hover,
+.seccion-gamer .productos-audifonos .contanedoraudifonos:Hover,
+.seccion-gamer .productos-audifonos .contenedorTarget:Hover,
+.seccion-gamer .productos-audifonos .contenedorTarge:Hover,
+.seccion-gamer .productos-gamer .contanedoraudifonos:Hover,
+.seccion-gamer .productos-gamer .contenedorTarget:Hover,
+.seccion-gamer .productos-gamer .contenedorTarge:Hover,
+.seccion-gamer #seccionTablets .contanedoraudifonos:Hover,
+.seccion-gamer #seccionTablets .contenedorTarget:Hover,
+.seccion-gamer #seccionTablets .contenedorTarge:Hover,
+#todoslosproductos .productos-audifonos .contanedoraudifonos:Hover,
+#todoslosproductos .productos-audifonos .contenedorTarget:Hover,
+#todoslosproductos .productos-audifonos .contenedorTarge:Hover,
+#todoslosproductos .productos-gamer .contanedoraudifonos:Hover,
+#todoslosproductos .productos-gamer .contenedorTarget:Hover,
+#todoslosproductos .productos-gamer .contenedorTarge:Hover,
+#todoslosproductos #seccionTablets .contanedoraudifonos:Hover,
 #todoslosproductos #seccionTablets .contenedorTarget:Hover,
 #todoslosproductos #seccionTablets .contenedorTarge:Hover {
   scale: 1.2;
 }
 
+.contanedoraudifonos,
+.contanedorProduct,
 #contanedorProducto1 {
   display: flex;
   flex-direction: row;
@@ -559,7 +685,8 @@ header.Shadow {
   justify-content: center;
   position: absolute;
   width: 100%;
-  margin-top: 7rem;
+  margin-top: 1rem;
+  margin-left: -3.5rem;
   background: #fff;
   z-index: 90;
 }

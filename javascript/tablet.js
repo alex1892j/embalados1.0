@@ -221,30 +221,159 @@ const productosStokc = [
 
         descripcion: "PANTALLA TAMAÑO 10.5 PULG, PANTALLA WUXGA TFT, RESOLUCION DE PANTALLA 1920 x 1200, CPU MODELO OCTA- CORE(2.00GHz), MEMORIA RAM CAPACIDAD 3 GB, TIPO RAM, ALMACENAMIENTO INTERNO 32 GB, TIPO ROM, EXTERNO SOPORTA MICROSD(EXPANDIBLE HASTA 1TB), CONECTIVIDAD WIRELESS 2.4G + 5GHz, VHT80, BLUETOOTH 5.0, TECNOLOGIAS DE LOCALIZACION GPS, GLONASS, GALILEO, QZSS, SENSORES ACELEROMETRO, GIROSCOPIO, SENSOR DE LUZ AMBIENTAL, SENSOR DE PASILLO, SENSOR GEOMAGNETICO, CAMARA COMENTARIOS PRINCIPAL: 8.0 MP / FRONTAL: 5.0 MP, PUERTOS CONECTOR DE AUDIO: 3.5mm, USB 2.0, BATERIA TIPO DE BATERIA LI - ION, CAPACIDAD 7040 MAH, DIMENSIONES LARGO 16.19 CM, ANCHO 24.68 CM, ALTO 0.69 CM, PESO 508 GR, COLOR NEGRO, COMENTARIOS PC SYNC: SMART SWITCH(VERSION DE PC), FORMATO DE REPRODUCCION DE VIDEO: MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM, RESOLUCION DE REPRODUCCION DE VIDEO: FHD(1920 x 1080)@60FPS, FORMATO DE REPRODUCCION DE AUDIO: MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA"
     },
-
-    /*
     {
         id: 12,
 
-        titulo: '',
+        titulo: 'TABLET PACK ADVANCE TR7987 BLUE MONSTER',
 
-        precio1: "S / ",
+        precio1: "S / 356",
 
-        precio2: "S / ",
+        precio2: 320,
 
-        img: "img/tab/",
+        img: "imgt/taba/TC-TB-0012.jpeg",
 
-        des: "",
+        des: "Diseño para niños, ligero fácil de sujetar, conectividad 3G, mantente conectado en cualquier lugar.",
 
         video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fbfuK9OaEO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 
         cantidad: 1,
 
-        descripcion: ""
+        descripcion: "MODELO TR7987, SISTEMA OPERATIVO ANDROID 10, PANTALLA TAMAÑO 7 PULG, PANTALLA HD TN, RESOLUCION DE PANTALLA 1024 x 600, CPU MODELO SC7731, VELOCIDAD 1.3 GHZ, NUMERO DE NUCLEOS 4, MEMORIA RAM CAPACIDAD 1 GB, ALMACENAMIENTO INTERNO 16 GB, CONECTIVIDAD WIRELESS 802.11B, BLUETOOTH SI, CONECTIVIDAD CELULAR 2G  3G, CAMARA PRINCIPAL O TRASERA 2.0 MPX, FRONTAL 0.3 MPX, PUERTOS CONECTOR DE AUDIO: 3.5mm, MICRO- USB 2.0, RANURA DUAL SIM, RANURA MICRO SD, RADIO RADIO FM, BATERIA CAPACIDAD 2800 MAH, APLICACIONES ADVANCE APP STORE, GRABADORA DE VOZ, INTERNET BROWSER, MUSICA, PLAY STORE, RELOJ, ACCESORIOS CABLE USB, CARGADOR DE BATERIA, PROTECTOR DE GOMA, CONTENIDO INCLUYE: PROTECTOR ESPECIAL DE MONSTER."
     },
-*/
+    {
+        id: 13,
 
+        titulo: 'TABLET ADVANCE PRIME PR5850 BK/BL/RD',
 
+        precio1: "S / 208",
+
+        precio2: 189,
+
+        img: "imgt/taba/tc-tb-0013/TC-TB-0013.jpg",
+
+        des: "tiene un diseño delgado y un excelente rendimiento. Es un equipo con Android 8.1 ideal para llevarlo a todos lados.",
+
+        video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fbfuK9OaEO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+
+        cantidad: 1,
+
+        descripcion: "SISTEMA OPERATIVO ANDROID 8.1 OREO, PANTALLA TAMAÑO 7 PULG, TIPO DE PANTALLA TN, RESOLUCION DE PANTALLA 1024 x 600, CPU MODELO MTK 8321, NUMERO DE NUCLEOS 4, MEMORIA RAM CAPACIDAD 1 GB, ALMACENAMIENTO INTERNO 16 GB, CONECTIVIDAD WIRELESS 802.11B, 802.11G, 802.11N, BLUETOOTH SI, CONECTIVIDAD CELULAR 2G(850 / 900 / 1800 / 1900 MHz), 3G(850 / 1900 MHz), CAMARA PRINCIPAL O TRASERA 2.0 MPX, FRONTAL 0.3 MPX, PUERTOS CONECTOR DE AUDIO: 3.5mm, MICRO- USB 2.0, RANURA DUAL SIM, RANURA MICRO SD, RADIO RADIO FM, BATERIA CAPACIDAD 2800 MAH, ACCESORIOS ADAPTADOR, CABLE USB, MANUAL DE USUARIO"
+    },
+    {
+        id: 14,
+
+        titulo: 'TABLET ADVANCE INTRO TR5994 DINO RED',
+
+        precio1: "S / 439",
+
+        precio2: 399,
+
+        img: "imgt/taba/TC-TB-0014.jpg",
+
+        des: "Diseño para niños, ligero fácil de sujetar, conectividad 3G, mantente conectado en cualquier lugar.",
+
+        video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fbfuK9OaEO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+
+        cantidad: 1,
+
+        descripcion: "SISTEMA OPERATIVO ANDROID 8.1 OREO, PANTALLA TAMAÑO 7 PULG, TIPO DE PANTALLA IPS SCREEN, RESOLUCION DE PANTALLA 1024 x 600, CPU MODELO SC7731, VELOCIDAD 1.3 GHZ, NUMERO DE NUCLEOS 4, MEMORIA RAM CAPACIDAD 1 GB, ALMACENAMIENTO INTERNO 16 GB, CONECTIVIDAD WIRELESS 802.11B, 802.11G, 802.11N, BLUETOOTH SI, CONECTIVIDAD CELULAR 2G(850 / 900 / 1800 / 1900 MHz), 3G(850 / 1900 MHz), CAMARA PRINCIPAL O TRASERA 2.0 MPX, FRONTAL 0.3 MPX, PUERTOS CONECTOR DE AUDIO: 3.5mm, MICRO- USB 2.0, RANURA DUAL SIM, RANURA MICRO SD, RADIO RADIO FM, BATERIA CAPACIDAD 2500 MAH, APLICACIONES BUSQUEDA POR VOZ, CALCULADORA, CALENDARIO, CORREO, DESCARGAS, FILE MANAGER, GALERIA, GMAIL, GOOGLE PLAY GAMES, GOOGLE PLAY SERVICES, GOOGLE SEARCH, GRABADORA DE VOZ, INTERNET BROWSER, MUSICA, PLAY STORE, RELOJ"
+    },
+    {
+        id: 15,
+
+        titulo: 'TABLET ADVANCE PRIME PR6171',
+
+        precio1: "S / 459",
+
+        precio2: 399,
+
+        img: "imgt/taba/TC-TB-0015.jpeg",
+
+        des: "Diseño de 7 pulgadas la hace fácil de manipular",
+
+        video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fbfuK9OaEO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+
+        cantidad: 1,
+
+        descripcion: "SISTEMA OPERATIVO ANDROID 10, PANTALLA TAMAÑO 8 PULG, RESOLUCION DE PANTALLA 1024 x 600, TIPO DE TOUCHSCREEN CAPACITIVO, CPU MODELO MTK 8321, NUMERO DE NUCLEOS 4, MEMORIA RAM CAPACIDAD 1 GB, ALMACENAMIENTO INTERNO 16 GB, CONECTIVIDAD WIRELESS 802.11B, 802.11G, 802.11N, BLUETOOTH SI, CONECTIVIDAD CELULAR 2G(850 / 900 / 1800 / 1900 MHz), 3G(850 / 1900 MHz), CAMARA PRINCIPAL O TRASERA 2.0 MPX, FRONTAL 0.3 MPX, PUERTOS CONECTOR DE AUDIO: 3.5mm, MICRO- USB 2.0, RANURA DUAL SIM, RANURA MICRO SD, RADIO RADIO FM, BATERIA CAPACIDAD 4000 MAH, ACCESORIOS ADAPTADOR, CABLE USB, MANUAL DE USUARIO"
+    },
+    {
+        id: 16,
+
+        titulo: 'TABLET ADVANCE SMARTPAD SP4702',
+
+        precio1: "S / 659",
+
+        precio2: 599,
+
+        img: "imgt/taba/TC-TB-0016.jpeg",
+
+        des: "Disfruta la portabilidad de la Tablet y aprovecha al máximo tus aplicaciones y contenidos favoritos sin problemas en cualquier lugar.",
+
+        video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fbfuK9OaEO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+
+        cantidad: 1,
+
+        descripcion: "SISTEMA OPERATIVO ANDROID 9.0 PIE, PANTALLA TAMAÑO 10.1 PULG, TIPO DE PANTALLA IPS, RESOLUCION DE PANTALLA 1920 x 1200, CPU MODELO SC9863, NUMERO DE NUCLEOS 8, MEMORIA RAM CAPACIDAD 3 GB, ALMACENAMIENTO INTERNO 32 GB, CONECTIVIDAD WIRELESS 802.11B, 802.11G, 802.11N, BLUETOOTH SI, SENSORES GPS, CAMARA PRINCIPAL O TRASERA 5.0 MPX, FRONTAL 2.0 MPX, PUERTOS CONECTOR DE AUDIO: 3.5mm, MICRO- USB 2.0, RANURA MICRO SD, RADIO RADIO FM, BATERIA CAPACIDAD 5000 MAH, ACCESORIOS CARGADOR DE BATERIA, MANUAL DE USUARIO, CONTENIDO INCLUYE FUNDA PROTECTORA."
+    },
+    {
+        id: 17,
+
+        titulo: 'TABLET ADVANCE SMARTPAD SP5703',
+
+        precio1: "S / 824",
+
+        precio2: 749,
+
+        img: "imgt/taba/TC-TB-0017.jpeg",
+
+        des: "Diseño ligero y delgado, pantalla HD de 1280x800 de 10.1 Pulgadas con biseles estrechos ofrece un mejor impacto visual.",
+
+        video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fbfuK9OaEO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+
+        cantidad: 1,
+
+        descripcion: "SISTEMA OPERATIVO ANDROID 11, PANTALLA TAMAÑO 10.1 PULG, TIPO DE PANTALLA IPS, RESOLUCION DE PANTALLA 1920 x 1200, CPU MODELO T310, NUMERO DE NUCLEOS 4, MEMORIA RAM CAPACIDAD 4 GB, ALMACENAMIENTO INTERNO 128 GB, CONECTIVIDAD WIRELESS 802.11B, 802.11G, 802.11N, BLUETOOTH SI, CONECTIVIDAD CELULAR 4G LTE, SENSORES GPS, CAMARA POSTERIOR O TRASERA 5.0 MPX, FRONTAL 2.0 MPX, PUERTOS CONECTOR DE AUDIO: 3.5mm, MICRO- USB 2.0, RANURA MICRO SD, RADIO RADIO FM, BATERIA CAPACIDAD 5000 MAH, ACCESORIOS CARGADOR DE BATERIA, MANUAL DE USUARIO, CONTENIDO INCLUYE FUNDA PROTECTORA"
+    },
+    {
+        id: 18,
+
+        titulo: 'TABLET ADVANCE SMARTPAD SP5712',
+
+        precio1: "S / 912",
+
+        precio2: 829,
+
+        img: "imgt/taba/TC-TB-0018.jpg",
+
+        des: "Elegante carcasa metálica, contribuye en hacerla una de las tablets mas elegantes.",
+
+        video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fbfuK9OaEO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+
+        cantidad: 1,
+
+        descripcion: "SISTEMA OPERATIVO ANDROID 10, PANTALLA TAMAÑO 10.1 PULG, TIPO DE PANTALLA IPS SCREEN, RESOLUCION DE PANTALLA 1920 x 1200, CPU MODELO T618, VELOCIDAD 2.0 GHZ, NUMERO DE NUCLEOS 8, MEMORIA RAM CAPACIDAD 4 GB, ALMACENAMIENTO INTERNO 32 GB, CONECTIVIDAD WIRELESS 802.11A, 802.11AC, 802.11B, 802.11G, 802.11N, CONECTIVIDAD CELULAR 2G (850/900/1900 MHZ), 3G (850/900/1900 MHZ), 4G(900/1700/1900/2600 MHZ), CAMARA POSTERIOR O TRASERA 5.0 MPX, FRONTAL 2.0 MPX, PUERTOS CONECTOR DE AUDIO: 3.5mm, RANURA MICRO SD, RANURA SIM, USB TIPO-C, BATERIA TIPO DE BATERIA LI-ION, CAPACIDAD 6000 MAH, ACCESORIOS CABLE USB, CARGADOR DE BATERIA, MANUAL DE USUARIO"
+    },
+
+    {
+        id: 19,
+
+        titulo: 'SAMSUNG GALAXY TAB S8',
+
+        precio1: "S / 4024",
+
+        precio2: 3499,
+
+        img: "imgt/taba/TC-TB-0019/TC-TB-0019.jpg",
+
+        des: "La tablet Sansung S8 no pasará desapercibida.",
+
+        video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/fbfuK9OaEO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+
+        cantidad: 1,
+
+        descripcion: "PANTALLA TAMAÑO 11 PULG TFT WQXGA, RESOLUCION DE 2560 x 1600, CPU OCTA-CORE(2.99GHz, 2.4GHz, 1.7GHz), MEMORIA RAM CAPACIDAD 8 GB, ALMACENAMIENTO INTERNO 128 GB, EXTERNO SOPORTA MICROSD(EXPANDIBLE HASTA 1TB), CONECTIVIDAD WIRELESS 2.4G + 5GHz, 6GHz, WI-FI DIRECT, BLUETOOTH 5.2, GPS, SENSORES ACELEROMETRO, GEOMAGNETICO, GIROSCOPIO, LECTOR DE HUELLA DIGITAL, CAMARA PRINCIPAL: 13.0 + 6.0MP / FRONTAL: 12.0MP, PUERTOS USB TIPO-C, BATERIA TIPO DE BATERIA LI - ION, CAPACIDAD 8000 MAH, DIMENSIONES LARGO 16.53 CM, ANCHO 25.38 CM, ALTO 0.63 CM."
+    },
 
 ];
 
@@ -510,6 +639,8 @@ function procesarpedido() {
 
 let sumar = document.querySelector('#sumar');
 let restar = document.querySelector('#restar')
+
+
 
 
 
